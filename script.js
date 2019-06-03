@@ -86,10 +86,10 @@ function drawNum() {
         thisColArr = Array.from(thisCol);
         thisRowArr = Array.from(thisRow);
         if (thisColArr.every(item => item.classList.contains('gotIt') === true)) {
-            console.log('col bingo!')
+            window.alert('BINGO!')
         }
         if (thisRowArr.every(item => item.classList.contains('gotIt') === true)) {
-            console.log('row bingo!')
+            window.alert('BINGO!')
         }
 
 
